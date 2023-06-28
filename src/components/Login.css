@@ -1,0 +1,97 @@
+.container {
+    background-color: #f6dbdd;
+    height: 100vh;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: -15px 18px 31px -11px rgba(0,0,0,0.75);
+    height: 70vh;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+}
+  
+.about-container {
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    background-color: #ff5864;
+    padding: 10px;
+  }
+
+.about-container h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0px 20px;
+}
+
+.about-container p{
+    margin: 0px 20px;
+}
+  
+.form-container {
+    border-radius: 20px 0 0 20px;
+    width: 50%;
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  .form-container h1{
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form-container a{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  form{
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  button{
+    background-color: #ff5864;
+    color: #fff;
+    width: 30%;
+    align-self: center;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(224, 221, 221);
+    padding: 10px;
+    margin: 10px 0px;
+  }
+
+.forgot-password{
+    color: gray;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
